@@ -1,4 +1,44 @@
 /* Media Queries */
+
+@media screen and (max-width:979px){
+   main.banner-description {
+    background-position:center;
+    background-size:cover;
+}
+
+    
+}
+
+@media screen and (max-width:891px){
+  
+    section.session-about .flex-division {
+       flex-wrap: wrap;
+    }
+
+
+    
+}
+
+@media screen and (max-width:798px){
+  
+   .border-left {
+    width: 100px;
+   
+}
+
+.border-right {
+    width: 100px;
+   
+}
+
+.title-about h2 {
+    font-size:2rem;
+}
+
+
+    
+}
+
 @media screen and (max-width:732px){
     nav.nav-desktop ul  {
        display:none;
@@ -7,6 +47,27 @@
     nav.menu-mobile {
        display:block;
     }
+
+
+    
+}
+
+@media screen and (max-width:571px){
+  
+.border-left {
+    width: 80px;
+   
+}
+
+.border-right {
+    width: 80px;
+   
+}
+
+.title-about h2 {
+    font-size:1.6rem;
+}
+
 
     
 }
