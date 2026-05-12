@@ -1,0 +1,161 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/**/
+
+/* import css */
+@import "./color.css";
+/**/
+
+/* font css */
+:root {
+    --font-oswald:Oswald;
+}
+/**/
+
+/* Classes Gerais css */
+
+/* header menu-navigation*/
+header.menu-navigation {
+    width: 100%;
+    padding:30px 2%;
+    background-color:var(--color-one);
+}
+
+
+header.menu-navigation .flex-division {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-brands {
+    max-width: 160px;
+}
+
+.logo-brands a img {
+    width: 100%;
+}
+
+
+
+nav.nav-desktop ul {
+    display:flex;
+    list-style-type:none;
+}
+
+nav.nav-desktop ul li {
+    padding:0 15px;
+}
+
+nav.nav-desktop ul li a {
+    color:var(--color-two);
+    text-decoration:none;
+    font-size: 1.1rem;
+    font-family:var(--font-oswald);
+    text-transform: uppercase;
+    transition:.5s;
+}
+
+nav.nav-desktop ul li a.active {
+    color:var(--color-tree);
+}
+
+nav.nav-desktop ul li a:hover {
+    color:var(--color-tree);
+}
+
+/* menu mobile */
+nav.menu-mobile {
+    display:none;
+    width:38px;
+    height:38px;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+nav.menu-mobile ul {
+    width: 100%;
+    position: absolute;
+    left:0;
+    padding:20px 0;
+    background-color:var(--color-one);
+    top:120px;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav.menu-mobile ul li  {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+nav.menu-mobile ul li:hover {
+    background-color:var(--color-five);
+}
+
+
+
+nav.menu-mobile ul li:hover a {
+    color:var(--color-tree);
+}
+
+
+nav.menu-mobile ul li a {
+    color:var(--color-two);
+    font-size: 1rem;
+    font-family:var(--font-oswald);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/**/
+
+/* main banner-description */
+main.banner-description {
+    width: 100%;
+    height:90vh;
+    background-color:var(--color-two);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wrapper-left {
+    padding:80px 2%;
+}
+
+.card-info {
+    width: 300px;
+    height:60px;
+    padding:15px 10px;
+    background-color:var(--color-tree);
+    margin-bottom: 1rem;
+    border-radius:5px;
+}
+
+.card-info:nth-of-type(1) {
+    width: 160px;
+}
+
+.card-info:nth-of-type(2) {
+    width: 200px;
+} 
+
+.card-info:nth-of-type(3) {
+    width:240px;
+}
+
+.card-info h3 {
+    color:var(--color-one);
+    font-size: 1.1rem;
+    font-family:var(--font-oswald);
+    text-transform: uppercase;
+}
+
+.card-info:nth-of-type(4) {
+    margin-left:0.2rem;
+    background-color:var(--color-four);
+}
+
+.card-info:nth-of-type(4) h3 {
+   color:var(--color-two);
+}
+/**/
